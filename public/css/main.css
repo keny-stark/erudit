@@ -570,3 +570,13 @@ body
   width: 133px;
   min-width: 133px!important;
 }
+.covid{
+    max-width: 100%;
+    margin-top: 130px;
+}
+@media (max-width:1200px) {
+    .covid{
+        max-width: 100%;
+        margin-top: 0;
+    }
+}
