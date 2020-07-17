@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
+    <img src="{{ asset('images/covid.png') }}" class="covid"
+         alt="">
     <div class="container-fluid sells-sector position-relative" id="actions"
          style="background-image: url({{ asset('images/3sector.png') }}); background-size: cover;">
         <img src="{{ asset('images/svg/7.svg') }}" class="position-absolute scroll-svg-up" style="left: -2%; top: 45%;"
